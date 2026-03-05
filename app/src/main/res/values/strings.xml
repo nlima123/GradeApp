@@ -1,0 +1,67 @@
+<resources>
+    <string name="user_name_box">Your Name:</string>
+    <string name="user_name">User</string>
+    <string name="user_button">Log in</string>
+    <string name="database_button">Saved Users</string>
+    <string name="new_user">Save</string>
+    <string name="back_button">Back</string>
+    <string name="clear_database">Clear All Users</string>
+
+    <string name="app_name">Grade Calculator</string>
+    <string name="image_description">Soft modern green-blue background</string>
+    <string name="semester_title">Semester GPA</string>
+    <string name="semester_current">Current</string>
+    <string name="semester_target">Target</string>
+    <string name="cumulative_title">Cumulative GPA</string>
+    <string name="cumulative_current">Current</string>
+    <string name="cumulative_target">Target</string>
+    <string name="previous_title">Previous</string>
+    <string name="previous_gpa">GPA</string>
+    <string name="previous_credits">Credits</string>
+    <string name="classes_title1">Class</string>
+    <string name="classes_title2">Credits</string>
+    <string name="classes_title3">Grade</string>
+    <string name="classes_title4">Retake?</string>
+    <string name="editTextHint">Enter text</string>
+
+    <string name="class_1">#1</string>
+    <string name="class_2">#2</string>
+    <string name="class_3">#3</string>
+    <string name="class_4">#4</string>
+    <string name="class_5">#5</string>
+    <string name="class_6">#6</string>
+
+    <string name="default_value_gpa">0.0</string>
+    <string name="default_target_value_gpa">4.0</string>
+    <string name="prior_credit_default">0</string>
+
+    <string name="c_button_name">Calculate</string>
+    <string name="h_button_name">Help</string>
+    <string name="reset_button">Reset</string>
+
+    <string name="grade_default">0</string>
+    <string name="credit_one">1</string>
+    <string name="credit_two">2</string>
+    <string name="credit_three">3</string>
+    <string name="credit_four">4</string>
+    <string name="retake_box">Retake?</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="list_title">List of Users:</string>
+
+    <string name="place_holder">Place Holder</string>
+
+</resources>

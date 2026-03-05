@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="4dp"
+    android:paddingHorizontal="8dp"
+    android:weightSum="10">
+
+    <!-- Switch (Enable/Disable Class) -->
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/class_y_n"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical" />
+
+    <!-- RadioGroup for Credits -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5.5"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_one" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_two" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_three" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credit_four" />
+    </RadioGroup>
+
+    <!-- Grade input -->
+    <EditText
+        android:id="@+id/class_grade_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/grade_default"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:autofillHints="0.0" />
+
+    <!-- Retake checkbox -->
+    <CheckBox
+        android:id="@+id/retake_box"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:text="@string/retake_box"
+        android:gravity="center_vertical" />
+</LinearLayout>
