@@ -1,11 +1,13 @@
 <resources>
-    <string name="user_name_box">Your Name:</string>
-    <string name="user_name">User</string>
-    <string name="user_button">Log in</string>
-    <string name="database_button">Saved Users</string>
+    <string name="user_name_box">Name</string>
+    <string name="user_name">Username</string>
+    <string name="user_button">Sign in</string>
+    <string name="guest_button">Use as guest</string>
+    <string name="sign_up_button">Create account</string>
+    <string name="database_button">Saved profiles</string>
     <string name="new_user">Save</string>
     <string name="back_button">Back</string>
-    <string name="clear_database">Clear All Users</string>
+    <string name="clear_database">Clear saved users</string>
 
     <string name="app_name">Grade Calculator</string>
     <string name="image_description">Soft modern green-blue background</string>

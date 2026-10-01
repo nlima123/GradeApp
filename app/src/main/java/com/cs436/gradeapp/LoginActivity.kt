@@ -22,10 +22,16 @@ class LoginActivity : AppCompatActivity() {
         val usernameEditText = findViewById<EditText>(R.id.username)
         val passwordEditText = findViewById<EditText>(R.id.password)
         val loginButton = findViewById<Button>(R.id.loginButton)
+        val guestButton = findViewById<Button>(R.id.guestButton)
         val registerButton = findViewById<Button>(R.id.registerButton)
         val viewUsersButton = findViewById<Button>(R.id.viewUsersButton)
 
         sharedPrefs = getSharedPreferences("UserPrefs", MODE_PRIVATE)
+
+        guestButton.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
 
         loginButton.setOnClickListener {
             val username = usernameEditText.text.toString()

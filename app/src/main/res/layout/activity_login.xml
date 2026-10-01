@@ -47,10 +47,19 @@
         android:backgroundTint="@color/toolbar_green" />
 
     <Button
+        android:id="@+id/guestButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guest_button"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/app_green" />
+
+    <Button
         android:id="@+id/registerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/new_user"
+        android:text="@string/sign_up_button"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/toolbar_green" />
 
